@@ -1,4 +1,4 @@
-baseURL = 'http://maktabah-al-hamdaniyyah.pages.dev/'
+baseURL = 'https://maktabah-al-hamdaniyyah.pages.dev/'
 languageCode = 'id'
 title = 'Maktabah Al-Hamdaniyyah'
 theme = "PaperMod"
