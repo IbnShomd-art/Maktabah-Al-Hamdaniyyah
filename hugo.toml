@@ -1,0 +1,44 @@
+baseURL = 'http://localhost:1313/'
+languageCode = 'id'
+title = 'Maktabah Al-Hamdaniyyah'
+theme = "PaperMod"
+
+[params]
+    env = "production"
+    title = "Maktabah Al-Hamdaniyyah"
+    description = "Sebutir Debu di Atas Lembaran Kitab"
+    author = "Ibn Shomad"
+    
+    # --- BAGIAN ESTETIK (HOME PAGE) ---
+    [params.homeInfoParams]
+        Title = "Selamat Datang di Blog Pribadi Ibn Shomad"
+        Content = "Tempat saya mengeja hidup lewat literasi, pendidikan, dan sedikit kontemplasi ala musafir kata."
+
+    # --- SOSIAL MEDIA (BIAR KEREN) ---
+    [[params.socialIcons]]
+        name = "Twitter"
+        url = "https://twitter.com/Zieeeqhmdni"
+    [[params.socialIcons]]
+        name = "Instagram"
+        url = "https://instagram.com/ibn_shomd/"
+    [[params.socialIcons]]
+        name = "github"
+        url = "https://github.com/"
+
+# --- MENU ATAS ---
+[menu]
+    [[menu.main]]
+        identifier = "posts"
+        name = "📚 Catatan Harian"
+        url = "/post/"
+        weight = 10
+    [[menu.main]]
+        identifier = "tags"
+        name = "🏷️ Topik"
+        url = "/tags/"
+        weight = 20
+    [[menu.main]]
+        identifier = "biografi"
+        name = "📖 Biografi"
+        url = "/biografi/"
+        weight = 5    
