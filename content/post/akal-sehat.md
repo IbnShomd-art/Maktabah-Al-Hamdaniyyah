@@ -7,6 +7,7 @@ description: ""
 categories: ["Catatan Harian"]
 tags: ["Pendidikan", "Filosofi"]
 showToc: true
+image: "link-gambar-kamu.jpg"
 TocOpen: false
 ---
 
