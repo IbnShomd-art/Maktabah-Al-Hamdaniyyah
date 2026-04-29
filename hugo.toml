@@ -1,18 +1,7 @@
 baseURL = 'https://maktabah-al-hamdaniyyah.pages.dev/'
 languageCode = 'id'
 title = 'Maktabah Al-Hamdaniyyah'
-theme = "blowfish"
+theme = ["github.com/nunocoracao/blowfish/v2"]
 
 [params]
     colorScheme = "blowfish"
-    showRecent = true
-
-[[menu.main]]
-    name = "Pendidikan"
-    url = "/categories/pendidikan"
-    weight = 1
-
-[[menu.main]]
-    name = "Filosofi"
-    url = "/categories/filosofi"
-    weight = 2
