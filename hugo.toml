@@ -2,24 +2,22 @@ baseURL = 'https://maktabah-al-hamdaniyyah.pages.dev/'
 title = 'Maktabah Al-Hamdaniyyah'
 theme = "blowfish"
 
-# Pengaturan Bahasa Wajib Blowfish
+# --- BAGIAN INI YANG BIKIN ERROR ---
+# Kita harus mendefinisikan bahasa secara spesifik untuk Blowfish
 defaultContentLanguage = "id"
 
-[languages.id]
+[languages]
+  [languages.id]
     languageCode = "id"
     contentDir = "content"
     languageName = "Bahasa Indonesia"
     weight = 1
-    # Ini kuncinya, mendefinisikan Locale secara paksa
-    [languages.id.params]
-        locale = "id"
+# -----------------------------------
 
 [params]
     colorScheme = "blowfish"
-    defaultAppearance = "dark"
     showRecent = true
-    mainSections = ["post"]
-    brandColor = "#cc0000"
+    header = "double" # Supaya menu navigasi terlihat jelas
 
 [[menu.main]]
     name = "Pendidikan"
@@ -30,8 +28,3 @@ defaultContentLanguage = "id"
     name = "Filosofi"
     url = "/categories/filosofi"
     weight = 2
-
-[[menu.main]]
-    name = "Kitab Kuning"
-    url = "/categories/kitab-kuning"
-    weight = 3
