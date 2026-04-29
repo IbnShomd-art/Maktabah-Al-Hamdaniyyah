@@ -5,30 +5,30 @@ theme = "newsroom"
 
 [params]
     env = "production"
-    title = "Maktabah Al-Hamdaniyyah"
-    description = "Literasi, Pemikiran, dan Kebudayaan"
+    description = "Situs Literasi, Pemikiran, dan Kebudayaan Islam"
     author = "Ibn Shomad"
-    bio = "Sebutir Debu di Atas Lembaran Kitab"
-    primaryColor = "#cc0000" # Merah khas majalah Tempo
+    primaryColor = "#cc0000" # Merah Tempo
+    
+    # Custom Asset Injection
+    custom_css = ["css/custom.css"]
 
-    # Pengaturan Media Sosial
-    twitter = "https://twitter.com/Zieeeqhmdni"
-    instagram = "https://instagram.com/ibn_shomd/"
-    github = "https://github.com/IbnShomd-art"
-
-# --- MENU NAVIGASI (Biar pojok kanan ada isinya) ---
-
+# --- NAVIGATION SYSTEM ---
 [[menu.main]]
-    name = "Beranda"
-    url = "/"
+    name = "Pendidikan"
+    url = "/categories/pendidikan"
     weight = 1
 
 [[menu.main]]
-    name = "Biografi"
-    url = "/biografi"
+    name = "Filosofi"
+    url = "/categories/filosofi"
     weight = 2
 
 [[menu.main]]
-    name = "Tulisan"
-    url = "/post"
+    name = "Kitab Kuning"
+    url = "/categories/kitab-kuning"
     weight = 3
+
+[[menu.main]]
+    name = "Puisi"
+    url = "/categories/puisi"
+    weight = 4
