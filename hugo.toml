@@ -1,10 +1,8 @@
 baseURL = 'https://maktabah-al-hamdaniyyah.pages.dev/'
+languageCode = 'id'
+defaultContentLanguage = 'id'
 title = 'Maktabah Al-Hamdaniyyah'
 theme = "blowfish"
-
-# --- BAGIAN INI YANG BIKIN ERROR ---
-# Kita harus mendefinisikan bahasa secara spesifik untuk Blowfish
-defaultContentLanguage = "id"
 
 [languages]
   [languages.id]

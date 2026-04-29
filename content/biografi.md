@@ -1,7 +1,8 @@
 ---
-title: "Si Jalang Dari Ujung Selatan"
-date: 2026-04-28
+title: "Biografi Saya"
+date: 2026-04-30
 draft: false
+description: "Sedikit seratan tentang saya."
 ---
 
 ## Sebuih Ombak Bahrul Ma'ani
