@@ -5,13 +5,12 @@ theme = "newsroom"
 
 [params]
     env = "production"
-    description = "Situs Literasi, Pemikiran, dan Kebudayaan Islam"
+    title = "Maktabah Al-Hamdaniyyah"
+    description = "Literasi, Pemikiran, dan Kebudayaan"
     author = "Ibn Shomad"
-    primaryColor = "#cc0000" # Merah Tempo
-    
-    # Custom Asset Injection
+    primaryColor = "#cc0000"
     custom_css = ["css/custom.css"]
-
+ 
 # --- NAVIGATION SYSTEM ---
 [[menu.main]]
     name = "Pendidikan"
