@@ -1,16 +1,21 @@
 baseURL = 'https://maktabah-al-hamdaniyyah.pages.dev/'
-languageCode = 'id'
 title = 'Maktabah Al-Hamdaniyyah'
 theme = "blowfish"
+defaultContentLanguage = "id"
+
+[languages]
+  [languages.id]
+    languageCode = "id"
+    contentDir = "content"
+    languageName = "Bahasa Indonesia"
+    weight = 1
 
 [params]
     colorScheme = "blowfish"
-    defaultAppearance = "dark" # Kita set mode gelap biar keren
+    defaultAppearance = "dark"
     showRecent = true
     mainSections = ["post"]
-    
-    # Custom Branding
-    brandColor = "#cc0000" 
+    brandColor = "#cc0000"
 
 [[menu.main]]
     name = "Pendidikan"
