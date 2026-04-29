@@ -9,3 +9,18 @@ theme = "newsroom"
     description = "Literasi, Pemikiran, dan Kebudayaan"
     author = "Ibn Shomad"
     primaryColor = "#cc0000"
+
+[[menu.main]]
+    name = "Beranda"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Filsafat"
+    url = "/categories/filsafat"
+    weight = 2
+
+[[menu.main]]
+    name = "Tentang"
+    url = "/biografi"
+    weight = 3
