@@ -10,8 +10,7 @@ theme = "newsroom"
     author = "Ibn Shomad"
     primaryColor = "#cc0000"
     custom_css = ["css/custom.css"]
- 
-# --- NAVIGATION SYSTEM ---
+
 [[menu.main]]
     name = "Pendidikan"
     url = "/categories/pendidikan"
@@ -21,13 +20,3 @@ theme = "newsroom"
     name = "Filosofi"
     url = "/categories/filosofi"
     weight = 2
-
-[[menu.main]]
-    name = "Kitab Kuning"
-    url = "/categories/kitab-kuning"
-    weight = 3
-
-[[menu.main]]
-    name = "Puisi"
-    url = "/categories/puisi"
-    weight = 4
