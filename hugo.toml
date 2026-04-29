@@ -1,7 +1,7 @@
 baseURL = 'https://maktabah-al-hamdaniyyah.pages.dev/'
 languageCode = 'id'
 title = 'Maktabah Al-Hamdaniyyah'
-theme = "PaperMod"
+theme = "newsroom"
 
 [params]
     env = "production"
@@ -42,3 +42,8 @@ theme = "PaperMod"
         name = "📖 Biografi"
         url = "/biografi/"
         weight = 5    
+
+        [params]
+  description = "Literasi, Pemikiran, dan Kebudayaan"
+  # Warna Merah Khas Tempo (opsional)
+  primaryColor = "#cc0000"
