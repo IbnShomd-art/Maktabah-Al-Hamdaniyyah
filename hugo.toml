@@ -9,14 +9,14 @@ theme = "newsroom"
     description = "Literasi, Pemikiran, dan Kebudayaan"
     author = "Ibn Shomad"
     bio = "Sebutir Debu di Atas Lembaran Kitab"
-    primaryColor = "#cc0000" # Warna merah khas majalah berita
+    primaryColor = "#cc0000" # Merah khas majalah Tempo
 
-    # Bagian Sosial Media (Cara Newsroom)
+    # Pengaturan Media Sosial
     twitter = "https://twitter.com/Zieeeqhmdni"
     instagram = "https://instagram.com/ibn_shomd/"
     github = "https://github.com/IbnShomd-art"
 
-# --- MENU NAVIGASI (Biar pojok kanan gak kosong) ---
+# --- MENU NAVIGASI (Biar pojok kanan ada isinya) ---
 
 [[menu.main]]
     name = "Beranda"
@@ -29,6 +29,6 @@ theme = "newsroom"
     weight = 2
 
 [[menu.main]]
-    name = "Catatan"
+    name = "Tulisan"
     url = "/post"
     weight = 3
