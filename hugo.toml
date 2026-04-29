@@ -1,19 +1,11 @@
 baseURL = 'https://maktabah-al-hamdaniyyah.pages.dev/'
 languageCode = 'id'
-defaultContentLanguage = 'id'
 title = 'Maktabah Al-Hamdaniyyah'
 theme = "blowfish"
-
-[languages]
-  [languages.id]
-    languageName = "Bahasa Indonesia"
-    contentDir = "content"
-    weight = 1
 
 [params]
     colorScheme = "blowfish"
     showRecent = true
-    mainSections = ["post"]
 
 [[menu.main]]
     name = "Pendidikan"
