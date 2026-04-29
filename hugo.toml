@@ -1,14 +1,18 @@
 baseURL = 'https://maktabah-al-hamdaniyyah.pages.dev/'
 title = 'Maktabah Al-Hamdaniyyah'
 theme = "blowfish"
+
+# Pengaturan Bahasa Wajib Blowfish
 defaultContentLanguage = "id"
 
-[languages]
-  [languages.id]
+[languages.id]
     languageCode = "id"
     contentDir = "content"
     languageName = "Bahasa Indonesia"
     weight = 1
+    # Ini kuncinya, mendefinisikan Locale secara paksa
+    [languages.id.params]
+        locale = "id"
 
 [params]
     colorScheme = "blowfish"
