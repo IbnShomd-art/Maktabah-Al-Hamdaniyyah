@@ -8,7 +8,15 @@ theme = "newsroom"
     title = "Maktabah Al-Hamdaniyyah"
     description = "Literasi, Pemikiran, dan Kebudayaan"
     author = "Ibn Shomad"
-    primaryColor = "#cc0000"
+    bio = "Sebutir Debu di Atas Lembaran Kitab"
+    primaryColor = "#cc0000" # Warna merah khas majalah berita
+
+    # Bagian Sosial Media (Cara Newsroom)
+    twitter = "https://twitter.com/Zieeeqhmdni"
+    instagram = "https://instagram.com/ibn_shomd/"
+    github = "https://github.com/IbnShomd-art"
+
+# --- MENU NAVIGASI (Biar pojok kanan gak kosong) ---
 
 [[menu.main]]
     name = "Beranda"
@@ -16,11 +24,11 @@ theme = "newsroom"
     weight = 1
 
 [[menu.main]]
-    name = "Filsafat"
-    url = "/categories/filsafat"
+    name = "Biografi"
+    url = "/biografi"
     weight = 2
 
 [[menu.main]]
-    name = "Tentang"
-    url = "/biografi"
+    name = "Catatan"
+    url = "/post"
     weight = 3
